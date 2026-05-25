@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pet-adoption-api.iml" filepath="$PROJECT_DIR$/.idea/pet-adoption-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pet-adoption-api/pet-adoption-api.iml" filepath="$PROJECT_DIR$/pet-adoption-api/pet-adoption-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sistema-adocao-animal.iml" filepath="$PROJECT_DIR$/.idea/sistema-adocao-animal.iml" />
     </modules>
   </component>
 </project>

@@ -2,17 +2,17 @@ spring:
   application:
     name: pet-adoption-api
 
-    datasource:
-      url: jdbc:mysql://localhost:3306/adocao_db
-      username: root
-      password: sua_senha
+  datasource:
+    url: jdbc:postgresql://localhost:5432/adocao_db
+    username: postgres
+    password: sua_senha
 
-      jpa:
-        hibernate:
-          ddl-auto: update
+  jpa:
+    hibernate:
+      ddl-auto: update
 
-        show-sql: true
+    show-sql: true
 
-        properties:
-          hibernate:
-            format_sql: true
+    properties:
+      hibernate:
+        format_sql: true
